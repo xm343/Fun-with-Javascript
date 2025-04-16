@@ -338,7 +338,9 @@
 //     }
 // }
 
-
+// let a = {a:[1,2,3,4,5]}
+// const total = a.a.reduce((sum , num)=>sum+num,0)
+// console.log(total);
 
 
 
