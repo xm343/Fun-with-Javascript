@@ -204,5 +204,152 @@
 
 
 
+//remove even numbers from an array
+
+// let arr = [1,2,3,4,5,6,7,8]
+// let arr1 = arr.filter((num)=>num%2!=0)
+// console.log(arr1);
+
+
+
+//remove even numbers from object
+
+// let obj = {
+//     a:1,
+//     b:2,
+//     c:3,
+//     d:4
+// }
+// for(let key in obj){
+//     if(obj[key]%2==0){
+//         delete obj[key]
+//     }
+// }
+// console.log(obj);
+
+
+
+
+//print from 10 to 0 with set time out
+
+// let i=10
+// setTimeout(()=>{
+    
+//     while(i>=0){
+//         console.log(i)
+//         i--
+//     }
+// },1000)
+
+
+
+//print from 10 to 0 without set time out
+
+
+// for(let i=10; i>=0; i--){
+//     console.log(i);
+    
+// }
+
+
+//convert +ve into -ve and -ve to positive
+
+// let arr = [1,-2,3,-4,5]
+// let arr1 = arr.map((element)=>element*-1)
+// console.log(arr1);
+
+
+
+
+//print all others otherthan numbers
+
+// let arr = [32, 323, 42, () => {}, 485, 366, null, undefined];
+// for(let i=0; i<arr.length; i++){
+//     if(typeof arr[i]!=="number"){
+//         console.log(String(arr[i]));
+        
+//     }
+// }
+
+//delete duplicate elements
+
+// let arr = [1,1,2,3,3,4,4,5,5,6]
+// let duplicates= []
+
+// //loop
+// for(let i=0; i<arr.length; i++){
+//     for(j=i+1; j<arr.length; j++){
+//         if(arr[i]==arr[j] && !duplicates.includes(arr[i])){
+//             duplicates.push(arr[i])
+//         }
+//     }
+// }
+// console.log(duplicates);
+
+
+
+
+// let arr = [1,1,2,3,3,4,4,5,5,6]
+// //set
+// let arr1 = new Set([...arr])
+// console.log(arr1);
+
+
+
+//filter
+
+
+// let arr = [1, 1, 2, 3, 3, 4, 4, 5, 5, 6];
+// let duplicates = arr.filter((element, index, array) => 
+//     array.indexOf(element) !== index && array.lastIndexOf(element) === index
+// );
+// console.log(duplicates);
+
+
+
+
+//object destructuring
+
+// const obj = {
+//     name:"Alex",
+//     address:"yellow street",
+//     city:"new york"
+// }
+// const {name, address, city} = obj //destructing
+// console.log(name)
+// console.log(address)
+// console.log(city)
+
+
+
+//check array of numbers is in ascending order or not
+
+
+// let arr = [1,2,3,4,5,6,7]
+// for(let i=0; i<arr.length; i++){
+//     for(let j=i+1; j<arr.length; j++){
+//         if(arr[i]<arr[j]){
+//             console.log(true);
+//         }
+//         else{
+//             console.log(false);
+            
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
  
