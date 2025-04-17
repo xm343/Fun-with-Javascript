@@ -410,6 +410,130 @@
 
 
 
+// add . to a word
+// let str = "javascript"
+// let s = str.split('')
+// for(let i=0; i<s.length; i++){
+//     if(s[i]!='.'){
+//         s.push('.')
+//         break
+//     }
+// }
+// console.log(s.join(''));
+
+
+
+//sum of key values in obj
+
+// let obj = {
+//     a:10,
+//     b:20,
+//     c:30
+// }
+// let sum = 0
+// for(let key in obj){
+//     sum+=obj[key]
+// }
+// console.log(sum);
+
+
+//largest second largest
+
+// let arr =[1,2,3,435,5,64,4,122,141,2,4]
+// let result = arr.reduce(([largest , secondLargest],num)=>{
+//     return[
+//         num > largest ? num : largest,
+//         num > largest ? largest : (num>secondLargest ? num  : secondLargest)
+//     ]
+// },[-Infinity,-Infinity])
+// console.log(result[0])
+// console.log(result[1]);
+
+
+
+
+//sort without methods
+
+
+// let arr =[1,2,3,435,5,64,4,122,141,2,4]
+// for(let i=0; i<arr.length; i++){
+//     for(let j=i+1; j<arr.length; j++){
+//         if(arr[i]>arr[j]){
+//             let temp = arr[i]
+//             arr[i]=arr[j]
+//             arr[j]=temp
+//         }
+//     }
+// }
+// console.log(arr);
+
+
+
+// <----------reverse a array using while loop-------->
+
+// let array = [1,2,3,4,5]
+// let i=0
+// while(i<array.length/2){
+//     let temp = array[i]
+//     array[i]=array[array.length-1-i]
+//     array[array.length-1-i]=temp
+//     i++
+// }
+// console.log(array);
+
+
+
+//closure
+
+// function createCounter(){
+//     let count =0
+//     return function(){
+//         count++
+//         console.log(count);
+        
+//     }
+// }
+// const counter = createCounter()
+// counter()
+// counter()
+
+
+//remove even numbers from array
+
+// let arr = [1,12,3,4,5,68,7,88,9,10];
+// let arr1 = arr.filter((num)=>{
+//     return num%2!==0
+// })
+// console.log(arr1);
+
+
+
+// remove the even keys in Obj
+
+// let obj = {
+//     a:1,
+//     b:2,
+//     c:3,
+//     d:4,
+//     e:5,
+//     f:6,
+//     g:7,
+//     h:8,
+//     i:9,
+//     j:10
+// }
+// for(let key in obj){
+//     if(obj[key]%2==0){
+//         delete obj[key]
+//     }
+// }
+// console.log(obj);
+
+
+
+
+
+
 
 
  
