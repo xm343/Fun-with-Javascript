@@ -529,6 +529,153 @@
 // }
 // console.log(obj);
 
+//find frequency of numbers
+
+
+// let arr = [1,1,2,2,3,4,4,5,6,7,8]
+
+
+// let frequency = {}
+// for(let i=0; i<arr.length; i++){
+//     if(frequency[arr[i]]){
+//         frequency[arr[i]]++
+//     }
+//     else{
+//         frequency[arr[i]]=1
+//     }
+// }
+// console.log(frequency);
+
+
+
+// count 10 to 0 without settimeout
+
+
+// let count = 10
+// let counter = setInterval(()=>{
+//     console.log(count)
+//     count--
+//     if(count===0){
+//         clearInterval(counter)
+//     }
+// },1000)
+
+
+
+//+ve num to -ve and -ve num to +ve
+
+
+// let arr = [-1,2,-3,4];
+// let  arr1 = arr.map((num)=>num*-1)
+// console.log(arr1);
+
+
+//object destructing
+
+// const obj = {
+//     name:"Abhi",
+//     place:"kerala",
+//     phone:"12345678"
+// }
+// const {name,place,phone} = obj
+// console.log(name);
+// console.log(place);
+// console.log(phone)
+
+
+
+//average of even numbers
+
+// let  arr = [1,2,3,4,5,6,7,8,9,10]
+// let evenArr = arr.filter((num)=>num%2==0)
+// let sum = 0
+// let avg = 0
+// for(let i=0; i<evenArr.length; i++){
+//     sum+=evenArr[i]
+//     avg = sum/(evenArr.length)
+// }
+// console.log(avg)
+
+
+
+//first letter capital
+
+
+// let str = "aleena"
+// let letter = str.charAt(0).toUpperCase('')
+// let str1 = letter + str.slice(1,6)
+// console.log(str1)
+
+
+
+//count the vowels
+
+
+// let str = "abhi is a good boy"
+// let vowels = ['a','e','i','o','u']
+// let count = 0
+// for(let i=0; i<str.length; i++){
+//     if(vowels.includes(str[i])){
+//         count++
+//     }
+// }
+// console.log(count);
+
+
+
+
+//sum of positive numbers
+
+
+// let array = [1,-2,-3,null,8,"3",undefined,'6',-2,4]
+// let sum = 0
+// for(let i=0; i<array.length; i++){
+//     if(typeof array[i]==="number" && array[i]>0){
+//         sum+=array[i]
+//     }
+// }
+// console.log(sum);
+
+
+
+//sum of keys
+
+
+// let arr = [{a:1}, {b:2}, {c:3},{d:3},{e:5},{f:2},{g:4}]
+// let sum = 0
+// for(let key of arr){
+//     // console.log(key);
+//     for(let k in key){
+//         sum+=key[k]
+//     }
+    
+// }
+// console.log(sum);
+
+
+
+
+//remove duplicates
+
+// let arr = [1, 1, 2, 2, 3, 3, 3, 4, 6, 5]
+// let uniqueArr = []
+// for(let i=0; i<arr.length; i++){
+//     if(!uniqueArr.includes(arr[i])){
+//         uniqueArr.push(arr[i])
+//     }
+// }
+// console.log(uniqueArr)
+
+
+//find the sum
+
+// const obj = [{product : 'CPU',price:1000},{product : 'UPS' , price:2000}]
+
+// let result = obj.reduce((acc,val)=>{
+//     acc+=val.price
+//     return acc
+// },0)
+// console.log(result);
 
 
 
