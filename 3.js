@@ -19,7 +19,6 @@
 //     })
 
 
-
 //if a num is included in array resolve the array
 
 // const myPromise = new Promise((reject, resolve)=>{
@@ -92,9 +91,6 @@
 // greet()
 
 
-
-
-
 // // remove 5 from array (log arr not arr1)
 
 // const arr = [1,2,3,4,5,6]
@@ -146,6 +142,9 @@
 
 
 
+
+
+
 // //deep copy
 
 // const original = {
@@ -170,9 +169,6 @@
 // const counter = createCounter()
 // counter()
 // counter()
-
-
-
 
 
 

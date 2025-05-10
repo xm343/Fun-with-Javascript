@@ -680,10 +680,107 @@
 
 
 
+//lenght of array without arr.length
 
+// let arr = [1,2,3,4,5,6,7]
+// let count = 0
+// for(let i of arr){
+//     count++
+// }
+// console.log(count)
+
+
+
+
+//add an element to an array without using push and shift
+
+
+
+//without push
+
+// let arr = [1,2,3,4,5]
+// let num = 6
+// arr[arr.length]=6
+// console.log(arr)
+
+
+//morethan one element
+
+// let arr = [1,2,3,4,5]
+// arr = arr.concat(6,7,8)
+// console.log(arr)
+
+
+
+//without unshift
+
+// let arr = [1,2,3,4,5]
+// arr = [-1,0,...arr]
+// console.log(arr)
+
+
+
+//reverse array without built in function
+
+// let arr = [1,2,3,4,5]
+// let swap = 0
+// for(let i=0; i<arr.length; i++)
+
+
+//if arr1 includes arr2
+ 
+// let a = [1,2,2,3,4,5]
+// let b = [1,2,3,6,7,8,9]
+// let common = a.filter((item)=>b.includes(item))
+// common = [...new Set(common)]
+// console.log(common)
 
 
  
+// console.log('10'+5-'1'*5) (+ is both for string and number , string type coercion , bodmas)
 
 
- 
+
+
+
+// function number(num) {
+   
+// 	let index=0;
+// 	for(let i=0; i<num.length; i++) {
+// 		if(num[i]%2==0) {
+// 			num[index]=num[i]
+// 		    index++
+// 		}
+// 	}
+// 	num.length=index
+// 	for(let i=0; i<num.length; i++) {
+
+// 		for(let j=i+1; j<num.length; j++) {
+// 			if(num[i]==num[j]) {
+
+// 				for(let k=j; k<num.length-1; k++) {
+// 					num[k]=num[k+1]
+// 				}
+// 				num.length--
+// 				j--
+// 			}
+// 		}
+// 	}
+// 	return num
+// }
+// console.log(number([1,2,3,2,4,5,6,4]))
+
+
+
+// rotate array left
+
+// function rotateArray(arr ,n){
+//     n=n%arr.length
+//     for(let i=0; i<n; i++){
+//         arr.push(arr.shift())
+//     }
+//     return arr
+// }
+// let arr = [1,2,3,4,5]
+// let n=2
+// console.log(rotateArray(arr,n))
