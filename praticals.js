@@ -784,3 +784,140 @@
 // let arr = [1,2,3,4,5]
 // let n=2
 // console.log(rotateArray(arr,n))
+
+
+
+// length without lenght property
+
+// let arr = [1,2,3,4,54,5]
+// let count = 0
+// for(let i=0; i<=arr[i]; i++){
+//     count++
+// }
+// console.log(count)
+
+
+//with reduce
+
+// let arr = [1,2,3,4,5]
+// let length = arr.reduce((count)=>count+1,1)
+// console.log(length)
+
+
+//add element to array without using push and unshift
+
+
+// let arr = [1,2,3,4,5,6]
+// arr[arr.length] = 7
+// console.log(arr)
+
+// let arr = [1,2,3,4,5]
+// arr.splice(0,0,0)
+// console.log(arr)
+
+
+// let arr = [1,2,3,4]
+// arr =  arr.concat(6,7,8)
+//  console.log(arr)
+
+// let arr = [1,2,3,4]
+// arr  = [1,2,...arr]
+// console.log(arr)
+
+//remove elements without using pop
+
+// let arr = [1,2,3,4,5]
+// let pos = 2
+// for(let i=pos; i<arr.length-1; i++){
+//     arr[i] = arr[i+1]
+// } 
+// arr.length--
+// console.log(arr)
+
+
+//  without pop
+
+// let arr = [1,2,3,4]
+// arr.length = arr.length-1
+// console.log(arr)
+
+
+
+//reverse an array witohut using inbuilt methods
+
+// let arr = [1,2,3,4,5]
+// let temp = 0 
+// for(let i=0; i<arr.length/2; i++){
+//     temp = arr[i]
+//     arr[i] = arr[arr.length-i-1]
+//     arr[arr.length-i-1] = temp
+// }
+// console.log(arr)
+
+
+
+//merge two array
+
+
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [6,7,8,9,10]
+
+// arr1 = [...arr1,...arr2]
+// console.log(arr1)
+
+
+
+
+//factorial of a number
+
+// let n = 5
+// let factorial = 1
+// for(let i=1; i<=n; i++){
+//     factorial = factorial * i
+// }
+// console.log(factorial)
+
+
+
+
+
+
+//shift elements to left
+
+// let arr = [1,2,3,4,5]
+// for(let i= 0 ;i<arr.length-1; i++){
+//     arr[i]=arr[i+1]
+// }
+// arr.length--
+// console.log(arr)
+
+
+
+// Move each element of an array to the left, with the first element wrapping to the end.
+
+
+// let arr = [1,2,3,4,5,6]
+// let first = arr[0]
+// for(let i=0; i<arr.length-1; i++){
+//     arr[i] = arr[i+1]
+// }
+// arr[arr.length-1] = first
+// console.log(arr)
+
+//sort array
+
+// let arr = [2,3,2,313,1,1,425,35,35,6]
+// let temp = 0 
+// for(let j=0; j<arr.length-1; j++){
+//     for(let i=0; i<arr.length-1; i++){
+//         if(arr[i]>arr[i+1]){
+//             temp = arr[i]
+//             arr[i] = arr[i+1]
+//             arr[i+1] = temp
+//         }
+//     }
+// }
+
+// console.log(arr)
+
+
