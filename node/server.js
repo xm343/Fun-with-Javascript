@@ -20,6 +20,8 @@
 // const fs = require('fs')
 // const writeFile = fs.writeFileSync('newfile.txt','hello world')
 
+
+
 // <---------write date--------------->
 
 // const fs = require('fs')
@@ -252,4 +254,70 @@
 //     .catch((error)=>console.log(error))
 
 
+//application middleware
 
+
+// const express = require('express')
+// const app = express()
+
+// app.use((req,res,next)=>{
+//     console.log('incoming request')
+//     next()
+// })
+// app.get('/',(req,res)=>{
+//     res.send('application created')
+// })
+// app.listen(3000,()=>{
+//     console.log('created')
+// })
+
+
+
+
+//router middleware
+
+// const express = require('express')
+// const app = express()
+// const router = express.Router()
+
+// router.use((req,res,next)=>{
+//     console.log('hello ')
+// })
+
+// const routers = (req,res)=>{
+//     res.send("hello from me")
+// }
+// app.use('/api',routers)  
+// // Attach router to the app
+
+
+// app.listen(3000,()=>{
+//     console.log('listening')
+// })
+
+
+
+
+
+
+//query params
+
+// const express = require('express');
+// const app = express();
+// const port = 3000;
+
+// app.get('/sum', (req, res) => {
+//     // Get query parameters a and b
+//     const a = Number(req.query.a);
+//     const b = Number(req.query.b);
+
+    
+
+//     const sum = a + b;
+
+//     res.send(`The sum of ${a} and ${b} is ${sum}`);
+// });
+
+// app.listen(port, () => {
+//     console.log(`Server is running on http://localhost:${port}`);
+// });
