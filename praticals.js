@@ -1,5 +1,7 @@
 //promise
 
+const { error } = require("console")
+
 
 // const mypromise = new Promise((resolve , reject)=>{
 //     const success = true
@@ -34,6 +36,8 @@
 //     })
 
 
+
+
 //promise race/any
 
 
@@ -48,7 +52,6 @@
 //         console.log(error);
         
 //     })
-
 
 
 
@@ -82,7 +85,6 @@
 
 
 
-
 //apply
 
 // const person = {
@@ -93,7 +95,6 @@
 // }
 // const anotherPerson = {name : 'Alex'}
 // person.greet.apply(anotherPerson,['Hello','!'])
-
 
 
 
@@ -120,6 +121,8 @@
 // }while(num<limit)
 
 
+
+
 //while multiple of 5
 
 // let num = 5
@@ -142,7 +145,6 @@
 //     console.log(`goodbye`);
 // }
 // greet("Abhi", sayGoodbye)
-
 
 
 //pass by value
@@ -182,15 +184,11 @@
 // console.log(duplicates);
 
 
-
-
-
 //multiply each element by 2
 
 // let arr = [1,2,3,4,5,6]
 // let arr1 = arr.map(element=>element*2)
 // console.log(arr1);
-
 
 
 
@@ -201,8 +199,7 @@
 // let letter = str.charAt(3).toUpperCase('')
 // let str1 = str.slice(0,3)+letter
 // console.log(str1);
-
-
+ 
 
 //remove even numbers from an array
 
@@ -242,6 +239,15 @@
 // },1000)
 
 
+// let i = 10;
+// let intervalId = setInterval(() => {
+//     console.log(i);
+//     i--;
+//     if (i < 0) {
+//         clearInterval(intervalId); // Stop the interval when i reaches -1
+//     }
+// }, 1000);
+
 
 //print from 10 to 0 without set time out
 
@@ -270,6 +276,9 @@
         
 //     }
 // }
+
+
+
 
 //delete duplicate elements
 
@@ -360,6 +369,8 @@
 //     }
 // }
 
+
+
 //find the sum --------------------------------->
 
 
@@ -391,6 +402,8 @@
 // },[-Infinity,-Infinity])
 // console.log(`largest : ${result[0]}`);
 // console.log(`secondlargest : ${result[1]}`);
+
+
 
 
 
@@ -921,3 +934,71 @@
 // console.log(arr)
 
 
+
+//function to check array elements are in ascending order
+
+// let arr = [1,2,3,1,2,34,4]
+// function checkOrder(num){
+//     let ascending = true
+//     let descending = true
+//     for(let i=0; i<num.length-1; i++){
+//         if(num[i]>num[i+1]){
+//             ascending = false
+//         }
+//         if(num[i]<num[i+1]){
+//             descending = false
+//         }
+//     }
+//     if(ascending) return 'ascending'
+//     if(descending) return 'descending'
+//     return 'unsorted'
+// }
+// console.log(checkOrder(arr));
+
+
+
+
+
+//remove obj holding non string values
+
+// obj = {
+//     a:1,
+//     b:"str",
+//     c:NaN,
+//     d:4,
+//     e:undefined,
+//     f:()=>{}
+// }
+// for(let key in obj){
+//     if(typeof obj[key] !== 'string'){
+//         console.log(String(obj[key]))
+//     }
+// }
+
+
+
+
+// Array.forEach: flip sign of numbers
+
+// let arr = [1,-2,3,-4,5,-6,7]
+// arr.forEach((value,index,arr)=>{
+//     arr[index]=value*-1
+// })
+// console.log(arr)
+
+
+
+
+//capitilise last letter of string
+
+// let str = 'alex'
+// let str2 = ''
+// for(let i=0; i<str.length; i++){
+//     if(i===str.length-1){
+//         str2+=str[i].toUpperCase()
+//     }
+//     else{
+//         str2+=str[i]
+//     }
+// }
+// console.log(str2);
