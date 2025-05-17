@@ -1002,3 +1002,27 @@ const { error } = require("console")
 //     }
 // }
 // console.log(str2);
+
+
+
+
+
+
+// let arr = [1,2,3,4,5,6,7,8,5]
+// let value = arr.reduce((count,val)=>{
+//     if(val===5){
+//         count++
+//     }
+//     return count
+// },0)
+// console.log(value)
+
+
+// for(let i=0; i<6; i++){
+//     let row=' '
+//     for(let j=0; j<i; j++){
+//         row+=j+' '
+//     }
+//     console.log(row)
+    
+// }
