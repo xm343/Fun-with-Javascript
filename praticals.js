@@ -1147,3 +1147,16 @@ const { error } = require("console")
 
 
 
+
+//check number without .includes
+
+// let arr = [1,2,3,4,5,6]
+// let num = 5
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]===num){
+//         console.log(true)
+//     }
+// }
+
+
+

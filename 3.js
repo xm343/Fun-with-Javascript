@@ -19,6 +19,7 @@
 //     })
 
 
+
 //if a num is included in array resolve the array
 
 // const myPromise = new Promise((reject, resolve)=>{
@@ -39,7 +40,6 @@
 //         console.log(error);
         
 //     })
-
 
 
 
@@ -89,6 +89,9 @@
 //     console.log(message);
 // }
 // greet()
+
+
+
 
 
 // // remove 5 from array (log arr not arr1)
@@ -372,3 +375,23 @@
 //     console.log(gen.next().value);
 // }
 
+
+
+//factory function
+
+
+// function createPerson(name, age) {
+//     return {
+//         name: name,
+//         age: age,
+//         greet: function() {
+//             console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+//         }
+//     };
+// }
+
+// const person1 = createPerson("Alice", 25);
+// const person2 = createPerson("Bob", 30);
+
+// person1.greet(); 
+// person2.greet(); 
