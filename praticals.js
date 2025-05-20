@@ -1026,3 +1026,124 @@ const { error } = require("console")
 //     console.log(row)
     
 // }
+
+
+
+
+
+
+//Quality Assessment
+
+//length of array without length
+
+// let arr = [1,2,3,4,5,6]
+// let count = 0 
+// for(let i=0; i<arr[i]; i++){
+//     count++
+// }
+// console.log(count)
+
+
+
+//push elements without length property
+
+// let arr = [1,2,3,4,5,6]
+// let num = 7
+// arr[arr.length] = num
+// console.log(arr)
+
+// let arr  = [1,2,3,4,5]
+// arr = arr.concat(6,7,8)
+// console.log(arr)
+
+
+//without unshift
+
+// let arr = [1,2,3,4,5]
+// let arr1 = [1,2,3,4]
+// arr = [...arr1,...arr]
+// console.log(arr)
+
+
+
+
+//reverse array without built in methods
+
+// let arr = [1,2,3,4,5,6]
+// let arr1 = []
+// for(let i=arr.length-1; i>=0; i--){
+//     arr1.push(arr[i])
+// }
+// console.log(arr1);
+
+
+//reaarange the elements so that first becomes last and first becomes last
+
+// let arr = [1,2,3,4,5,6]
+// let temp = 0
+
+// temp = arr[0]
+// arr[0]=arr[arr.length-1]
+// arr[arr.length-1]=temp
+
+// console.log(arr)
+
+
+//merge two arrays
+
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [6,7,8,9]
+// let arr = [...arr1,...arr2]
+// console.log(arr)
+
+
+
+//shift all elements to left by one place first element to last
+
+// let arr = [0, 1, 2, 3, 4, 5, 6];
+
+// let firstElement = arr[0]; // Store the first element
+
+// for (let i = 0; i < arr.length - 1; i++) {
+//     arr[i] = arr[i + 1]; // Shift elements left
+// }
+
+// arr[arr.length - 1] = firstElement; // Move first element to last position
+
+// console.log(arr); // Output: [1, 2, 3, 4, 5, 6, 0]
+
+
+
+//sort array without sort()
+
+// let arr = [2,3,4,1,5,7,0,8,6]
+// let temp=0
+// for(let i=0; i<arr.length-1; i++){
+//     for(let j=0; j<arr.length-1; j++){
+//         if(arr[j]>arr[j+1]){
+//             temp = arr[j]
+//             arr[j]=arr[j+1]
+//             arr[j+1]=temp
+//         }
+//     }
+// }
+// console.log(arr)
+
+
+
+
+//rotate array to right n number of times
+
+// let arr = [1,2,3,4,5]
+// let n = 3
+// for(let i=0; i<n; i++){
+//     let lastElement  = arr[arr.length-1]
+//     for(let j=arr.length-1; j>0; j--){
+//         arr[j]=arr[j-1]
+//     }
+//     arr[0]=lastElement
+// }
+// console.log(arr)
+
+
+
