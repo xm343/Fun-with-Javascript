@@ -1,3 +1,158 @@
+// //callback
+// function greet(name,callback){
+//     console.log(`my name is ${name}`)
+//     callback()
+// }
+// function sayHello(){
+//     console.log(`how are you`)
+// }
+// greet('Abhi',sayHello)
+
+
+// //callback hell
+
+
+// function orderPizza(callback) {
+//     setTimeout(() => {
+//         console.log("Pizza ordered 🍕");
+//         callback();
+//     }, 1000);
+// }
+
+// function preparePizza(callback) {
+//     setTimeout(() => {
+//         console.log("Pizza is being prepared 🍽️");
+//         callback();
+//     }, 1000);
+// }
+
+// function bakePizza(callback) {
+//     setTimeout(() => {
+//         console.log("Pizza is baking 🔥");
+//         callback();
+//     }, 1000);
+// }
+
+// function deliverPizza(callback) {
+//     setTimeout(() => {
+//         console.log("Pizza delivered 🚀");
+//     }, 1000);
+// }
+
+// orderPizza(() => {
+//     preparePizza(() => {
+//         bakePizza(() => {
+//             deliverPizza(() => {
+//                 console.log("Enjoy your pizza! 😋");
+//             });
+//         });
+//     });
+// });
+
+//callback to promise
+
+
+// function orderPizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza ordered 🍕");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function preparePizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza is being prepared 🍽️");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function bakePizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza is baking 🔥");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function deliverPizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza delivered 🚀");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// // Using Promises with `.then()`
+// orderPizza()
+//     .then(() => preparePizza())
+//     .then(() => bakePizza())
+//     .then(() => deliverPizza())
+//     .then(() => console.log("Enjoy your pizza! 😋"))
+//     .catch((error) => console.error("Something went wrong:", error));
+
+
+
+
+    //promise to async await
+
+//     function orderPizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza ordered 🍕");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function preparePizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza is being prepared 🍽️");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function bakePizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza is baking 🔥");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function deliverPizza() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             console.log("Pizza delivered 🚀");
+//             resolve();
+//         }, 1000);
+//     });
+// }
+// async function orderProcess(){
+//     try{
+//         await orderPizza()
+//         await preparePizza()
+//         await bakePizza()
+//         await deliverPizza()
+//     }
+//     catch(error){
+//         console.log(error)
+//     }
+// }
+// orderProcess()
+
+
+
+
+
 // //promise
 
 
@@ -146,8 +301,6 @@
 
 
 
-
-
 // //deep copy
 
 // const original = {
@@ -172,6 +325,8 @@
 // const counter = createCounter()
 // counter()
 // counter()
+
+
 
 
 
