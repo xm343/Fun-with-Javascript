@@ -1160,3 +1160,17 @@ const { error } = require("console")
 
 
 
+// function sum(callback){
+//     setTimeout(()=>{
+//         callback()
+//     },3000)
+// }
+// function a(){
+//     let add =0
+//     let arr = [1,2,3,4]
+//     for(let i=0; i<3; i++){
+//         add+=arr[i]
+//     }
+//     console.log(add)
+// }
+// sum(a)
