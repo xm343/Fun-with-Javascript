@@ -9,6 +9,7 @@
 // greet('Abhi',sayHello)
 
 
+
 // //callback hell
 
 
@@ -18,6 +19,7 @@
 //         callback();
 //     }, 1000);
 // }
+
 
 // function preparePizza(callback) {
 //     setTimeout(() => {
@@ -49,8 +51,8 @@
 //     });
 // });
 
-//callback to promise
 
+//callback to promise
 
 // function orderPizza() {
 //     return new Promise((resolve) => {
@@ -174,7 +176,6 @@
 //     })
 
 
-
 //if a num is included in array resolve the array
 
 // const myPromise = new Promise((reject, resolve)=>{
@@ -195,8 +196,6 @@
 //         console.log(error);
         
 //     })
-
-
 
 // //promise.all
 
@@ -244,8 +243,6 @@
 //     console.log(message);
 // }
 // greet()
-
-
 
 
 
@@ -328,15 +325,12 @@
 
 
 
-
-
 // //TEMPORAL DEAD ZONE
 
 // console.log(myVariable); // ReferenceError: Cannot access 'myVariable' before initialization
 
 // let myVariable = "Hello, Temporal Dead Zone!";
 // console.log(myVariable); // Output: Hello, Temporal Dead Zone!
-
 
 
 
@@ -353,6 +347,7 @@
 // console.log(result);
 
 
+
 // //optional chaining
 
 // const obj = {
@@ -366,7 +361,6 @@
 // console.log(obj.address?.car)
 
 
-
 // //call apply bind
 
 // //call
@@ -375,7 +369,6 @@
 // }
 
 // sayHello.call({ name: "Pc" }); // Output: "Hello, Pc!"
-
 
 
 // //apply
@@ -456,7 +449,7 @@
 
 
 
-// //nullish coalescing operator
+//nullish coalescing operator
 
 // const name = null
 // const defaultName = "Gireesh"
@@ -497,7 +490,6 @@
 // console.log(gen.next().value);
 // console.log(gen.next().value);
 // console.log(gen.next().value);
-
 
 
 

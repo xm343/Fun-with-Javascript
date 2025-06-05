@@ -1,5 +1,7 @@
 //create a server with http
 
+console.log('hello')
+
 // const http = require('http')
 // const server = http.createServer((req, res)=>{
 //     res.write('hello world')

@@ -1,6 +1,5 @@
 //promise
 
-const { error } = require("console")
 
 
 // const mypromise = new Promise((resolve , reject)=>{
@@ -122,7 +121,6 @@ const { error } = require("console")
 
 
 
-
 //while multiple of 5
 
 // let num = 5
@@ -209,6 +207,7 @@ const { error } = require("console")
 
 
 
+
 //remove even numbers from object
 
 // let obj = {
@@ -226,7 +225,6 @@ const { error } = require("console")
 
 
 
-
 //print from 10 to 0 with set time out
 
 // let i=10
@@ -235,18 +233,31 @@ const { error } = require("console")
 //     while(i>=0){
 //         console.log(i)
 //         i--
+        
 //     }
 // },1000)
 
 
 // let i = 10;
-// let intervalId = setInterval(() => {
-//     console.log(i);
-//     i--;
-//     if (i < 0) {
-//         clearInterval(intervalId); // Stop the interval when i reaches -1
+// function countdown() {
+//     if (i >= 0) {
+//         console.log(i);
+//         i--;
+//         setTimeout(countdown, 1000); // Call itself after 1 second
 //     }
-// }, 1000);
+// }
+// countdown();
+
+
+
+let i = 10;
+let intervalId = setInterval(() => {
+    console.log(i);
+    i--;
+    if (i < 0) {
+        clearInterval(intervalId); // Stop the interval when i reaches -1
+    }
+}, 1000);
 
 
 //print from 10 to 0 without set time out
