@@ -250,14 +250,15 @@
 
 
 
-let i = 10;
-let intervalId = setInterval(() => {
-    console.log(i);
-    i--;
-    if (i < 0) {
-        clearInterval(intervalId); // Stop the interval when i reaches -1
-    }
-}, 1000);
+// let i = 10;
+// let intervalId = setInterval(() => {
+//     console.log(i);
+//     i--;
+//     if (i < 0) {
+//         clearInterval(intervalId); // Stop the interval when i reaches -1
+//     }
+// }, 1000);
+
 
 
 //print from 10 to 0 without set time out
@@ -400,7 +401,6 @@ let intervalId = setInterval(() => {
 // console.log(sum);
 
 
-
 //find first and second largest number in an array
 
 // let array = [1,2,3,4,5,6,4,3,2,2]
@@ -459,6 +459,7 @@ let intervalId = setInterval(() => {
 //     sum+=obj[key]
 // }
 // console.log(sum);
+
 
 
 //largest second largest
@@ -1185,3 +1186,63 @@ let intervalId = setInterval(() => {
 //     console.log(add)
 // }
 // sum(a)
+
+
+
+
+// how to check if an object is empty?
+
+
+// let obj = {
+    
+// }
+// if(Object.keys(obj).length === 0){
+//     console.log('true')
+// }
+// else{
+//     console.log('false')
+// }
+
+
+//find the largest value key
+
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// };
+
+// let largestKey = null;
+// let largestValue = -Infinity;
+
+// for (let key in obj) {
+//     if (obj[key] > largestValue) {
+//         largestValue = obj[key];
+//         largestKey = key;
+//     }
+// }
+
+// // console.log(largestKey); // "c"
+
+
+// symbol
+
+// let obj = {
+//     id:9451,
+//     name:'dominique',
+//     city:'sienna'
+// }
+// const myId = Symbol('Id')
+// obj[myId] = '23948092490248092'
+// console.log(obj)
+
+
+
+// const myId = Symbol('Id')
+// let obj = {
+//     id:9451,
+//     name:'dominique',
+//     city:'sienna',
+//     [myId]:'2948924892148924'
+// }
+// console.log(obj)

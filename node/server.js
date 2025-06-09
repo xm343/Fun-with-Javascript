@@ -1,6 +1,5 @@
 //create a server with http
 
-console.log('hello')
 
 // const http = require('http')
 // const server = http.createServer((req, res)=>{
@@ -62,7 +61,6 @@ console.log('hello')
 //     console.log('hello world');
 // })
 // myEvent.emit('greet')
-
 
 
 
@@ -271,7 +269,6 @@ console.log('hello')
 
 
 
-
 //router middleware
 
 // const express = require('express')
@@ -292,8 +289,6 @@ console.log('hello')
 // app.listen(3000,()=>{
 //     console.log('listening')
 // })
-
-
 
 
 
@@ -319,3 +314,5 @@ console.log('hello')
 // app.listen(port, () => {
 //     console.log(`Server is running on http://localhost:${port}`);
 // });
+
+
