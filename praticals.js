@@ -1190,6 +1190,11 @@
 
 
 
+
+
+
+
+
 // how to check if an object is empty?
 
 
@@ -1246,3 +1251,12 @@
 //     [myId]:'2948924892148924'
 // }
 // console.log(obj)
+
+
+// Here's how to modify an arrow function to sum n numbers using the rest operator and higher-order functions (HOFs) in JavaScript:
+
+// const sumNumbers = (...numbers) => {
+//   return numbers.reduce((acc, curr) => acc + curr, 0);
+// };
+
+// console.log(sumNumbers(1, 2, 3, 4, 5)); // Output: 15
