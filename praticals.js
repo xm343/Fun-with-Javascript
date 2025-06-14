@@ -1260,3 +1260,23 @@
 // };
 
 // console.log(sumNumbers(1, 2, 3, 4, 5)); // Output: 15
+
+
+
+
+
+//errorhandling middleware
+
+
+// const express = require('express');
+// const app = express();
+
+// // Error-handling middleware
+// app.use((err, req, res, next) => {
+//   console.error(err.stack); // Log the error stack trace
+//   res.status(500).send('Something broke!'); // Send a generic error response
+// });
+
+// app.listen(3000, () => {
+//   console.log('Server is running on port 3000');
+// });
