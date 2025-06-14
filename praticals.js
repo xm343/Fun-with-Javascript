@@ -1280,3 +1280,24 @@
 // app.listen(3000, () => {
 //   console.log('Server is running on port 3000');
 // });
+
+
+//reverse an array
+
+// let arr = [1,2,3,4,5]
+// let start = 0
+// let end = arr.length-1
+// while(start<end){
+//     [arr[start],arr[end]] = [arr[end],arr[start]]
+//     start++
+//     end--
+// }
+// console.log(arr)
+
+//with for loop
+
+// let arr = [1,2,3,4,5]
+// for(let start = 0, end = arr.length-1; start<end; start++,end--){
+//      [arr[start],arr[end]] = [arr[end],arr[start]]
+// }
+// console.log(arr)
