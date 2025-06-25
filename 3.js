@@ -197,6 +197,7 @@
         
 //     })
 
+
 // //promise.all
 
 // const promise1 = Promise.resolve('promise resolved')

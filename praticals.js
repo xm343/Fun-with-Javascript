@@ -68,10 +68,7 @@
 // console.log(result)
 
 
-
 //call apply bind
-
-
 
 
 //call
@@ -80,7 +77,6 @@
 //     console.log(`Hello , ${this.name}`);
 // }
 // sayHello.call({name:"Abhi"})
-
 
 
 
@@ -104,7 +100,6 @@
 // }
 // const bound = sayHello.bind({name:"Abhi"})
 // bound()
-
 
 
 
@@ -145,6 +140,7 @@
 // greet("Abhi", sayGoodbye)
 
 
+
 //pass by value
 
 // let a=10
@@ -182,13 +178,34 @@
 // console.log(duplicates);
 
 
+
+//non repeating numbers
+
+// let arr  = [1,2,3,4,5,1,2,3]
+// let frequency = {}
+// for(let i=0; i<arr.length; i++){
+//     if(frequency[arr[i]]){
+//         frequency[arr[i]]++
+//     }
+//     else{
+//         frequency[arr[i]] = 1
+//     }
+// }
+// for(let num in frequency){
+//     if(frequency[num]===1){
+//         console.log(Number(num))
+//     }
+// }
+
+
+
+
+
 //multiply each element by 2
 
 // let arr = [1,2,3,4,5,6]
 // let arr1 = arr.map(element=>element*2)
 // console.log(arr1);
-
-
 
 
 //capitalise last letter
