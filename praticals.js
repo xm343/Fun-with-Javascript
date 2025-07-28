@@ -1,7 +1,5 @@
 //promise
 
-
-
 // const mypromise = new Promise((resolve , reject)=>{
 //     const success = true
 //     if(success){
@@ -22,6 +20,8 @@
 
 
 //promise all
+
+
 
 // const promise1 = Promise.resolve('operation successful')
 // const promise2 = Promise.resolve('operation successful')
@@ -53,9 +53,7 @@
 //     })
 
 
-
 //currying
-
 
 // function sum(a){
 //     return function (b){
@@ -77,7 +75,6 @@
 //     console.log(`Hello , ${this.name}`);
 // }
 // sayHello.call({name:"Abhi"})
-
 
 
 //apply
@@ -123,7 +120,6 @@
 //     console.log(num);
 //     num+=5
 // }
-
 
 
 
@@ -196,9 +192,7 @@
 //         console.log(Number(num))
 //     }
 // }
-
-
-
+  
 
 
 //multiply each element by 2
@@ -214,7 +208,8 @@
 // let letter = str.charAt(3).toUpperCase('')
 // let str1 = str.slice(0,3)+letter
 // console.log(str1);
- 
+
+
 
 //remove even numbers from an array
 
@@ -278,6 +273,7 @@
 
 
 
+
 //print from 10 to 0 without set time out
 
 
@@ -292,7 +288,6 @@
 // let arr = [1,-2,3,-4,5]
 // let arr1 = arr.map((element)=>element*-1)
 // console.log(arr1);
-
 
 
 
@@ -345,7 +340,6 @@
 
 
 
-
 //object destructuring
 
 // const obj = {
@@ -379,8 +373,6 @@
 // let a = {a:[1,2,3,4,5]}
 // const total = a.a.reduce((sum , num)=>sum+num,0)
 // console.log(total);
-
-
 
 
 //finding the largest string
@@ -418,18 +410,27 @@
 // console.log(sum);
 
 
+
+
 //find first and second largest number in an array
 
-// let array = [1,2,3,4,5,6,4,3,2,2]
+// let array = [1, 2, 3, 4, 5, 6, 4, 3, 2, 2];
 
-// let result = array.reduce(([largest ,secondLargest],num)=>{
-//     return [
-//         num > largest ? num : largest,
-//         num > largest ? largest : (num > secondLargest ? num : secondLargest)
-//     ]
-// },[-Infinity,-Infinity])
-// console.log(`largest : ${result[0]}`);
-// console.log(`secondlargest : ${result[1]}`);
+// let first = -Infinity;
+// let second = -Infinity;
+
+// for (let num of array) {
+//     if (num > first) {
+//         second = first;
+//         first = num;
+//     } else if (num > second && num !== first) {
+//         second = num;
+//     }
+// }
+
+// console.log("First largest:", first);
+// console.log("Second largest:", second);
+
 
 
 
