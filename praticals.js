@@ -433,9 +433,6 @@
 
 
 
-
-
-
 //duplicate from array
 
 // let array = [1,2,7,3,3,4,1,2,3]
@@ -448,7 +445,6 @@
 //     }
 // }
 // console.log(duplicate);
-
 
 
 
@@ -480,6 +476,7 @@
 
 
 
+
 //largest second largest
 
 // let arr =[1,2,3,435,5,64,4,122,141,2,4]
@@ -491,8 +488,6 @@
 // },[-Infinity,-Infinity])
 // console.log(result[0])
 // console.log(result[1]);
-
-
 
 
 //sort without methods
@@ -532,8 +527,7 @@
 //     let count =0
 //     return function(){
 //         count++
-//         console.log(count);
-        
+//         console.log(count);        
 //     }
 // }
 // const counter = createCounter()
@@ -571,6 +565,8 @@
 //     }
 // }
 // console.log(obj);
+
+
 
 //find frequency of numbers
 
@@ -627,6 +623,7 @@
 
 
 
+
 //average of even numbers
 
 // let  arr = [1,2,3,4,5,6,7,8,9,10]
@@ -638,7 +635,6 @@
 //     avg = sum/(evenArr.length)
 // }
 // console.log(avg)
-
 
 
 //first letter capital
@@ -722,7 +718,6 @@
 
 
 
-
 //lenght of array without arr.length
 
 // let arr = [1,2,3,4,5,6,7]
@@ -766,10 +761,23 @@
 //reverse array without built in function
 
 // let arr = [1,2,3,4,5]
-// let swap = 0
-// for(let i=0; i<arr.length; i++)
+// let reversed = []
+// for(let i=0; i<arr.length; i++){
+//     reversed[arr.length-1-i]=arr[i]
+// }
+// console.log(reversed)
 
 
+
+//reverse array without built in function
+
+// let arr = [1,2,3,4,5,6]
+// for(let i=0; i<Math.floor(arr.length/2);i++){
+//     let temp = arr[i]
+//     arr[i] = arr[arr.length-i-1]
+//     arr[arr.length-1-i] = temp
+// }
+// console.log(arr)
 //if arr1 includes arr2
  
 // let a = [1,2,2,3,4,5]
