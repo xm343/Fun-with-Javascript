@@ -967,17 +967,8 @@
 // }
 
 // console.log(arr)
-let arr = [1,2,3,4,5,4,6,2]
-let ascending = true
-let descending = true
-for(let i=0; i<arr.length; i++){
-    if(arr[i]>arr[i+1]){
-        ascending = false
-    }
-    if(arr[i]<arr[i+1]){
-        descending = false
-    }
-}
+
+
 
 //function to check array elements are in ascending order
 
