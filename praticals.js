@@ -778,6 +778,8 @@
 //     arr[arr.length-1-i] = temp
 // }
 // console.log(arr)
+
+
 //if arr1 includes arr2
  
 // let a = [1,2,2,3,4,5]
@@ -785,7 +787,6 @@
 // let common = a.filter((item)=>b.includes(item))
 // common = [...new Set(common)]
 // console.log(common)
-
 
  
 // console.log('10'+5-'1'*5) (+ is both for string and number , string type coercion , bodmas)
@@ -837,7 +838,6 @@
 // console.log(rotateArray(arr,n))
 
 
-
 // length without lenght property
 
 // let arr = [1,2,3,4,54,5]
@@ -886,6 +886,7 @@
 // console.log(arr)
 
 
+
 //  without pop
 
 // let arr = [1,2,3,4]
@@ -918,7 +919,6 @@
 
 
 
-
 //factorial of a number
 
 // let n = 5
@@ -927,9 +927,6 @@
 //     factorial = factorial * i
 // }
 // console.log(factorial)
-
-
-
 
 
 
@@ -970,8 +967,17 @@
 // }
 
 // console.log(arr)
-
-
+let arr = [1,2,3,4,5,4,6,2]
+let ascending = true
+let descending = true
+for(let i=0; i<arr.length; i++){
+    if(arr[i]>arr[i+1]){
+        ascending = false
+    }
+    if(arr[i]<arr[i+1]){
+        descending = false
+    }
+}
 
 //function to check array elements are in ascending order
 
