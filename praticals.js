@@ -1011,8 +1011,6 @@
 // }
 
 
-
-
 // Array.forEach: flip sign of numbers
 
 // let arr = [1,-2,3,-4,5,-6,7]
@@ -1020,8 +1018,6 @@
 //     arr[index]=value*-1
 // })
 // console.log(arr)
-
-
 
 
 //capitilise last letter of string
@@ -1037,9 +1033,6 @@
 //     }
 // }
 // console.log(str2);
-
-
-
 
 
 
@@ -1061,8 +1054,6 @@
 //     console.log(row)
     
 // }
-
-
 
 
 
@@ -1149,6 +1140,7 @@
 
 
 
+
 //sort array without sort()
 
 // let arr = [2,3,4,1,5,7,0,8,6]
@@ -1163,7 +1155,6 @@
 //     }
 // }
 // console.log(arr)
-
 
 
 
@@ -1230,6 +1221,7 @@
 // else{
 //     console.log('false')
 // }
+
 
 
 //find the largest value key
@@ -1324,3 +1316,64 @@
 //      [arr[start],arr[end]] = [arr[end],arr[start]]
 // }
 // console.log(arr)
+
+
+
+//push zero to front of  array
+
+
+// let arr = [1,2,0,4,0,5,3,0]
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]===0){
+//         arr.splice(i,1)
+//         arr.unshift(0)
+//     }
+// }
+// console.log(arr)
+
+
+//merge and delete the duplicates
+
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [3,4,5,6,7]
+// let arr = []
+// for(let i=0; i<arr1.length; i++){
+//     arr[i] = arr1[i]
+// }
+// for(let j=0; j<arr2.length; j++){
+//     arr[arr1.length+j] = arr2[j]
+// }
+// console.log(arr)
+// for(let i=0; i<arr.length; i++){
+    
+// }
+// let duplicates = []
+// for(let i=0; i<arr.length; i++){
+//     for(let j=0; j<arr.length; j++){
+//         if(arr[i]==arr[j] && !duplicates.includes(arr[i])){
+//             duplicates.push(arr[i])
+//         }
+//     }
+// }
+// console.log(duplicates)
+
+
+
+//remove the repeating elements
+
+// let arr = [1,2,3,4,5,6,7,3,4,5]
+// let result = []
+// for(let i=0;i<arr.length; i++){
+//     let count = 0
+//     for(let j=0; j<arr.length; j++){
+//         if(arr[i]===arr[j]){
+//             count++
+//         }
+//     }
+//     if(count==1){
+//         result.push(arr[i])
+//     }
+// }
+// console.log(result)
+
+
