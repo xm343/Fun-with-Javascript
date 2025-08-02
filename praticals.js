@@ -1462,3 +1462,117 @@
 // console.log(arr);
 
 
+//check an array is palindrome or not
+
+
+// function isPalindrome(arr){
+//   for(let i=0; i<Math.floor(arr.length/2);i++){
+//     if(arr[i]!==arr[arr.length-1-i]){
+//       return false
+//     }
+//   }
+//   return true
+// }
+
+// console.log(isPalindrome([1,2,3,4,5,4,3,2,1]))
+
+
+
+
+
+//remove vowels from string
+
+
+// let str = 'javascript'
+// let str1 =''
+// let vowels = ['a','e','i','o','u']
+// for(let i=0; i<str.length; i++){
+//   if(!vowels.includes(str[i])){
+//       str1+=str[i]
+//   }
+// }
+// console.log(str1)
+
+
+
+//print items specific to a user
+
+
+// const data1 = [
+//   {
+//     _id: 101,
+//     userId: 1,
+//     amount: 250,
+//     status: 'delivered',
+//     items: ['pen', 'notebook'],
+//   },
+//   { _id: 102, userId: 1, amount: 120, status: 'pending', items: ['stapler'] },
+//   {
+//     _id: 103,
+//     userId: 2,
+//     amount: 550,
+//     status: 'cancelled',
+//     items: ['mouse', 'keyboard'],
+//   },
+//   { _id: 104, userId: 3, amount: 90, status: 'delivered', items: ['eraser'] },
+// ];
+
+
+
+// function printItems(userId){
+//     let result = [];
+//     for(let obj of data1){
+//         if(obj.userId == userId){
+//             obj.items.forEach((val)=>{
+//                 result.push(val)
+//             })
+//         }
+//     }
+//     return result
+// }
+
+// console.log(printItems(1))
+
+
+
+
+
+// const array = [1, 2, 3, [4, 5], [6, 7, 8, [9, 10, 11]]];
+
+// function flatArray(arr, result = []){
+//     if(arr.length <= 0) return result;
+    
+//     if(Array.isArray(arr[0])){
+//         flatArray(arr[0].slice(1), result)
+//     }
+//     result.push(arr[0])
+    
+//     return flatArray(arr.slice(1), result)
+// }
+
+// console.log(flatArray(array))
+
+
+// let b;
+// console.log(b); //un
+
+// function B() {
+//   let b;
+//   console.log(b); // un
+  
+//   function E() {
+//     b = 6;
+//     console.log(b); // 6
+//   }
+  
+//   b = 2;
+  
+//   E();
+//   console.log(b); // 6
+// }
+
+// b = 3;
+
+// B();
+
+
