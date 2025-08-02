@@ -1377,3 +1377,88 @@
 // console.log(result)
 
 
+
+//longest palindrome
+
+// let str = "aabbcccdddd"
+// let maxPalindrome = ''
+// for(let i=0; i<str.length; i++){
+//     for(let j=i; j<str.length; j++){
+//         let subStr = str.slice(i,j+1)
+//         let reverse = subStr.split('').reverse().join('')
+//         if(reverse === subStr && subStr.length>maxPalindrome.length){
+//         maxPalindrome = subStr
+//         }
+//     }
+    
+// }
+// console.log(maxPalindrome)
+
+
+
+//count palindrome in a string
+
+
+// let str = 'aabbccddddede';
+// let palindromes = new Set();
+
+// for (let i = 0; i < str.length; i++) {
+//     for (let j = i; j < str.length; j++) {
+//         let subStr = str.slice(i, j + 1);
+//         let reverse = subStr.split('').reverse().join('');
+//         if (reverse === subStr) {
+//             palindromes.add(subStr);
+//         }
+//     }
+// }
+
+// console.log("Unique palindromes:", palindromes.size);
+// console.log([...palindromes]);
+
+
+
+
+//add more grades for Eve
+
+// let arr = [
+//   { name: "Alice", age: 21, course: "Math", grades: [88, 92, 79] },
+//   { name: "Bob", age: 23, course: "Physics", grades: [75, 85] },
+//   { name: "Charlie", age: 22, course: "Chemistry", grades: [90, 91] },
+//   { name: "David", age: 24, course: "Math", grades: [60, 70, 80] },
+//   { name: "Eve", age: 20, course: "Physics", grades: [95] }
+// ]
+// let student = arr.find((s)=>s.name === 'Eve')
+// if(student){
+//     student.grades.push(67,98)
+// }
+// console.log(arr)
+
+
+
+
+//add average field to each document
+
+
+// let arr = [
+//   { name: "Alice", age: 21, course: "Math", grades: [88, 92, 79] },
+//   { name: "Bob", age: 23, course: "Physics", grades: [75, 85] },
+//   { name: "Charlie", age: 22, course: "Chemistry", grades: [90, 91] },
+//   { name: "David", age: 24, course: "Math", grades: [60, 70, 80] },
+//   { name: "Eve", age: 20, course: "Physics", grades: [95] }
+// ];
+
+// for (let i = 0; i < arr.length; i++) {
+//   let grades = arr[i].grades;
+//   let sum = 0;
+
+//   for (let j = 0; j < grades.length; j++) {
+//     sum += grades[j];
+//   }
+
+//   let avg = grades.length > 0 ? sum / grades.length : 0;
+//   arr[i].average = parseFloat(avg.toFixed(2)); // round to 2 decimals
+// }
+
+// console.log(arr);
+
+
