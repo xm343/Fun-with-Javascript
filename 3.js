@@ -52,6 +52,8 @@
 // });
 
 
+
+
     //callback to promise
 
 // function orderPizza() {
@@ -97,7 +99,6 @@
 //     .then(() => deliverPizza())
 //     .then(() => console.log("Enjoy your pizza! 😋"))
 //     .catch((error) => console.error("Something went wrong:", error));
-
 
 
 
@@ -152,11 +153,7 @@
 // orderProcess()
 
 
-
-
-
 // //promise
-
 
 // const myPromise = new Promise((resolve, reject)=>{
 //     const success = true
@@ -246,7 +243,6 @@
 // greet()
 
 
-
 // // remove 5 from array (log arr not arr1)
 
 // const arr = [1,2,3,4,5,6]
@@ -296,9 +292,6 @@
 // shallowCopy.address.city = "Los Angeles"
 // console.log(original.address.city);
 
-
-
-
 // //deep copy
 
 // const original = {
@@ -309,6 +302,8 @@
 // const deepCopy = structuredClone(original)
 // deepCopy.address.city = "Los Angeles"
 // console.log(original.address.city)
+
+
 
 
 // //closure
@@ -325,14 +320,12 @@
 // counter()
 
 
-
 // //TEMPORAL DEAD ZONE
 
 // console.log(myVariable); // ReferenceError: Cannot access 'myVariable' before initialization
 
 // let myVariable = "Hello, Temporal Dead Zone!";
 // console.log(myVariable); // Output: Hello, Temporal Dead Zone!
-
 
 
 // //currying
@@ -362,6 +355,7 @@
 // console.log(obj.address?.car)
 
 
+
 // //call apply bind
 
 // //call
@@ -370,6 +364,7 @@
 // }
 
 // sayHello.call({ name: "Pc" }); // Output: "Hello, Pc!"
+
 
 
 // //apply
@@ -405,7 +400,6 @@
 // boundSayHello(); // Output: "Hello, Pc!"
 
 
-
 // //call apply bind
 
 
@@ -413,7 +407,6 @@
 // //     firstName: 'Abhijith',
 // //     lastName: 'Sivadas'
 // // };
-
 // // function greet(greeting, punctuations) {
 // //     return `${greeting}, ${this.firstName} ${this.lastName}${punctuations}`;
 // // }
@@ -469,7 +462,6 @@
 //     total+=value
 //     return total
 // }
-
 // console.log(totalValue(5));
 // console.log(totalValue(5));
 

@@ -122,7 +122,6 @@
 // }
 
 
-
 //callback
 
 
@@ -174,7 +173,6 @@
 // console.log(duplicates);
 
 
-
 //non repeating numbers
 
 // let arr  = [1,2,3,4,5,1,2,3]
@@ -216,7 +214,6 @@
 // let arr = [1,2,3,4,5,6,7,8]
 // let arr1 = arr.filter((num)=>num%2!=0)
 // console.log(arr1);
-
 
 
 
@@ -283,6 +280,7 @@
 // }
 
 
+
 //convert +ve into -ve and -ve to positive
 
 // let arr = [1,-2,3,-4,5]
@@ -339,7 +337,6 @@
 // console.log(duplicates);
 
 
-
 //object destructuring
 
 // const obj = {
@@ -357,18 +354,19 @@
 //check array of numbers is in ascending order or not
 
 
-// let arr = [1,2,3,4,5,6,7]
-// for(let i=0; i<arr.length; i++){
-//     for(let j=i+1; j<arr.length; j++){
-//         if(arr[i]<arr[j]){
-//             console.log(true);
-//         }
-//         else{
-//             console.log(false);
-            
-//         }
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// let isAscending = true;
+
+// for (let i = 0; i < arr.length - 1; i++) {
+//     if (arr[i] >= arr[i + 1]) {
+//         isAscending = false;
+//         break; // No need to check further
 //     }
 // }
+
+// console.log(isAscending); // true
+
 
 // let a = {a:[1,2,3,4,5]}
 // const total = a.a.reduce((sum , num)=>sum+num,0)
