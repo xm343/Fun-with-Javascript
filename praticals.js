@@ -353,7 +353,6 @@
 
 //check array of numbers is in ascending order or not
 
-
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 
 // let isAscending = true;
@@ -406,6 +405,22 @@
 //     sum+=item.c
 // })
 // console.log(sum);
+
+
+
+
+// let a = {
+//     a: 2,
+//     pk: [ { c: 23 , d:20} ]
+//   };
+// let sum  = 0
+// sum+= a.a
+// a.pk.forEach((obj)=>{
+//     for(let key in obj){
+//         sum+=obj[key]
+//     }
+// })
+// console.log(sum)
 
 
 
