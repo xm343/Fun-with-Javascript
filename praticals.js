@@ -36,7 +36,6 @@
 
 
 
-
 //promise race/any
 
 
@@ -51,7 +50,6 @@
 //         console.log(error);
         
 //     })
-
 
 //currying
 
@@ -77,8 +75,6 @@
 // sayHello.call({name:"Abhi"})
 
 
-//apply
-
 // const person = {
 //     name:'Abhi',
 //     greet:function(greeting, punctuation){
@@ -87,6 +83,7 @@
 // }
 // const anotherPerson = {name : 'Alex'}
 // person.greet.apply(anotherPerson,['Hello','!'])
+
 
 
 
@@ -424,7 +421,6 @@
 
 
 
-
 //find first and second largest number in an array
 
 // let array = [1, 2, 3, 4, 5, 6, 4, 3, 2, 2];
@@ -488,8 +484,6 @@
 // console.log(sum);
 
 
-
-
 //largest second largest
 
 // let arr =[1,2,3,435,5,64,4,122,141,2,4]
@@ -531,7 +525,6 @@
 //     i++
 // }
 // console.log(array);
-
 
 
 //closure
@@ -599,7 +592,6 @@
 // console.log(frequency);
 
 
-
 // count 10 to 0 without settimeout
 
 
@@ -622,6 +614,7 @@
 // console.log(arr1);
 
 
+
 //object destructing
 
 // const obj = {
@@ -633,8 +626,6 @@
 // console.log(name);
 // console.log(place);
 // console.log(phone)
-
-
 
 
 //average of even numbers
@@ -667,7 +658,7 @@
 // let vowels = ['a','e','i','o','u']
 // let count = 0
 // for(let i=0; i<str.length; i++){
-//     if(vowels.includes(str[i])){
+//     if(vowels.includes(str[i]).toLowerCase()){
 //         count++
 //     }
 // }
@@ -803,8 +794,6 @@
 
  
 // console.log('10'+5-'1'*5) (+ is both for string and number , string type coercion , bodmas)
-
-
 
 
 
@@ -983,6 +972,7 @@
 
 
 
+
 //function to check array elements are in ascending order
 
 // let arr = [1,2,3,1,2,34,4]
@@ -1074,6 +1064,7 @@
 //Quality Assessment
 
 //length of array without length
+
 
 // let arr = [1,2,3,4,5,6]
 // let count = 0 
@@ -1169,8 +1160,6 @@
 // }
 // console.log(arr)
 
-
-
 //rotate array to right n number of times
 
 // let arr = [1,2,3,4,5]
@@ -1183,7 +1172,6 @@
 //     arr[0]=lastElement
 // }
 // console.log(arr)
-
 
 
 
@@ -1390,7 +1378,6 @@
 // console.log(result)
 
 
-
 //longest palindrome
 
 // let str = "aabbcccdddd"
@@ -1427,6 +1414,7 @@
 
 // console.log("Unique palindromes:", palindromes.size);
 // console.log([...palindromes]);
+
 
 
 

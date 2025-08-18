@@ -11,7 +11,9 @@
 // })
 
 
-//wrie a file
+
+//write a file
+
 
 
 // const fs = require('fs')
@@ -31,8 +33,6 @@
 //         console.log(data)
 //     }
 // })
-
-
 
 
 
@@ -61,6 +61,7 @@
 //     console.log('hello world');
 // })
 // myEvent.emit('greet')
+
 
 
 
@@ -251,7 +252,6 @@
 
 
 //application middleware
-
 
 // const express = require('express')
 // const app = express()

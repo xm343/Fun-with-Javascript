@@ -1,3 +1,5 @@
+
+
 // //callback
 // function greet(name,callback){
 //     console.log(`my name is ${name}`)
@@ -7,7 +9,6 @@
 //     console.log(`how are you`)
 // }
 // greet('Abhi',sayHello)
-
 
 
 // //callback hell
@@ -50,8 +51,6 @@
 //         });
 //     });
 // });
-
-
 
 
     //callback to promise
@@ -99,7 +98,6 @@
 //     .then(() => deliverPizza())
 //     .then(() => console.log("Enjoy your pizza! 😋"))
 //     .catch((error) => console.error("Something went wrong:", error));
-
 
 
     //promise to async await
@@ -235,10 +233,15 @@
 //         },1000)
 //     })
 // }
-// const greet = async ()=>{
-//     console.log('wating to resolve')
-//     const message = await sayHello()
-//     console.log(message);
+// async function greet(){
+//     try{
+//         const message = await sayHello()
+//         console.log(message)
+      
+//     }
+//     catch(error){
+//         console.log(error)
+//     }
 // }
 // greet()
 
