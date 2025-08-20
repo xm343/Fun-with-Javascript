@@ -282,8 +282,6 @@
 
 
 
-
-
 // //shallow copy && deepcopy
 
 // // shallow copy
@@ -297,6 +295,7 @@
 
 // //deep copy
 
+
 // const original = {
 //     name:"alice",
 //     address:{city:'New York'}
@@ -305,8 +304,6 @@
 // const deepCopy = structuredClone(original)
 // deepCopy.address.city = "Los Angeles"
 // console.log(original.address.city)
-
-
 
 
 // //closure
@@ -344,7 +341,6 @@
 // console.log(result);
 
 
-
 // //optional chaining
 
 // const obj = {
@@ -356,7 +352,6 @@
 // }
 // console.log(obj.address?.place)
 // console.log(obj.address?.car)
-
 
 
 // //call apply bind

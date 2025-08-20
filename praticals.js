@@ -1,3 +1,4 @@
+
 //promise
 
 // const mypromise = new Promise((resolve , reject)=>{
@@ -154,8 +155,6 @@
 // console.log("b:", b);     // Output: [1, 2, 3, 4]
 
 
-
-
 //print the duplicate elements
 
 // let arr = [1,1,2,3,4,2,1,3,5,6.7,7,7]
@@ -168,6 +167,7 @@
 //     }
 // }
 // console.log(duplicates);
+
 
 
 //non repeating numbers
@@ -190,6 +190,7 @@
   
 
 
+
 //multiply each element by 2
 
 // let arr = [1,2,3,4,5,6]
@@ -203,7 +204,6 @@
 // let letter = str.charAt(3).toUpperCase('')
 // let str1 = str.slice(0,3)+letter
 // console.log(str1);
-
 
 
 //remove even numbers from an array
@@ -230,7 +230,6 @@
 // console.log(obj);
 
 
-
 //print from 10 to 0 with set time out
 
 // let i=10
@@ -253,7 +252,6 @@
 //     }
 // }
 // countdown();
-
 
 
 // let i = 10;
@@ -347,7 +345,6 @@
 // console.log(city)
 
 
-
 //check array of numbers is in ascending order or not
 
 // let arr = [1, 2, 3, 4, 5, 6, 7];
@@ -367,6 +364,7 @@
 // let a = {a:[1,2,3,4,5]}
 // const total = a.a.reduce((sum , num)=>sum+num,0)
 // console.log(total);
+
 
 
 //finding the largest string
@@ -772,7 +770,6 @@
 // console.log(reversed)
 
 
-
 //reverse array without built in function
 
 // let arr = [1,2,3,4,5,6]
@@ -786,6 +783,8 @@
 
 //if arr1 includes arr2
  
+
+
 // let a = [1,2,2,3,4,5]
 // let b = [1,2,3,6,7,8,9]
 // let common = a.filter((item)=>b.includes(item))
@@ -823,7 +822,6 @@
 // 	return num
 // }
 // console.log(number([1,2,3,2,4,5,6,4]))
-
 
 
 // rotate array left
@@ -1418,7 +1416,6 @@
 
 
 
-
 //add more grades for Eve
 
 // let arr = [
@@ -1577,3 +1574,95 @@
 // B();
 
 
+
+//hello world => olleh dlrow
+
+// let str = 'hello world'
+// let str1 = str.split(' ')
+// let str2 = []
+
+// for (let i = 0; i < str1.length; i++) {
+//     let word = str1[i].split('')   // turn word into array
+//     for (let j = 0; j < Math.floor(word.length / 2); j++) {
+//         let temp = word[j]
+//         word[j] = word[word.length - 1 - j]
+//         word[word.length - 1 - j] = temp
+//     }
+//     str2.push(word.join(''))  // turn array back into string
+// }
+
+// console.log(str2.join(' '))
+
+
+//optional chaining
+
+// const invoices = [
+//   {
+//     id: 201,
+//     customerId: 10,
+//     total: 1500,
+//     status: 'paid',
+//     items: ['monitor', 'cable'],
+//   },
+//   {
+//     id: 202,
+//     customerId: 11,
+//     total: 2300,
+//     status: 'unpaid',
+//     items: ['laptop'],
+//   },
+//   {
+//     id: 203,
+//     customerId: 10,
+//     total: 600,
+//     status: 'paid',
+//     items: ['keyboard', 'mouse'],
+//   },
+//   {
+//     id: 204,
+//     customerId: 12,
+//     total: 800,
+//     status: 'cancelled',
+//     items: ['webcam'],
+//   },
+//   {
+//     id: 204,
+//     customerId: 12,
+//     total: 800,
+//     status: 'rejected',
+//     items: null,
+//   },
+// ];
+
+
+// function getItems(data, value) {
+//   // 1. Get all invoices where status matches the value
+//   let matchedInvoices = data.filter(invoice => invoice.status === value);
+
+//   // 2. If no invoice has that status
+//   if (matchedInvoices.length === 0) {
+//     console.log("status not found");
+//     return;
+//   }
+
+//   // 3. Collect all items safely using optional chaining (?.)
+//   //    If invoice.items is null or undefined, it will skip it
+//   let items = [];
+//   for (let invoice of matchedInvoices) {
+//     if (invoice.items?.length) {   // only push if items is not null
+//       items.push(...invoice.items); // spread (...) adds all items
+//     }
+//   }
+
+//   // 4. If items is empty after checking
+//   if (items.length === 0) {
+//     console.log("items not found");
+//     return;
+//   }
+
+//   // 5. Otherwise, show the items
+//   console.log(items);
+// }
+
+
+getItems(invoices,'processing')
