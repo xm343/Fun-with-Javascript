@@ -1665,4 +1665,53 @@
 // }
 
 
-getItems(invoices,'processing')
+// getItems(invoices,'processing')
+
+//two arrays to obj
+
+
+// const a = [20,29,24]
+// const name = ["viaa","asmaai","adfd3"];
+
+// let arr = []
+// let i=0
+// while(i<3){
+//     let obj={}
+//     obj.name = name[i]
+//     obj.a = a[i]
+//     i++
+//     arr.push(obj)
+// }
+
+// console.log(arr)
+
+
+//find the sum
+
+
+// const ab = {a:[34,343,32],ad:{adad:34}}
+
+// let sum = 0
+// for(let i=0;i<ab.a.length;i++){
+//     sum+=ab.a[i]
+// }
+
+// sum+= ab.ad.adad
+// console.log(sum)
+
+
+//find the sum
+
+
+// const products = [
+//   { id: 1, name: "Laptop", prices: [800, 850, 900] },
+//   { id: 2, name: "Phone", prices: [300, 350] },
+//   { id: 3, name: "Tablet", prices: [400, 450, 500] }
+// ];
+// let sum = 0
+
+
+// for(let i=0; i<products.length;  i++){
+//     sum+=products[i].prices.reduce((a,b)=>a+b)
+// }
+// console.log(sum)
