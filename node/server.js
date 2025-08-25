@@ -267,8 +267,7 @@
 //     console.log('created')
 // })
 
-
-
+          
 //router middleware
 
 // const express = require('express')
@@ -289,7 +288,6 @@
 // app.listen(3000,()=>{
 //     console.log('listening')
 // })
-
 
 
 
@@ -315,4 +313,26 @@
 //     console.log(`Server is running on http://localhost:${port}`);
 // });
 
+
+// // Import express
+// const express = require('express');
+// const app = express();
+// const PORT = 3000;
+
+// // Example route with path params
+// app.get('/users/:id', (req, res) => {
+//   // Access path parameter with req.params
+//   const userId = req.params.id;
+//   res.send(`You requested user with ID: ${userId}`);
+// });
+
+// // Multiple path params
+// app.get('/users/:userId/posts/:postId', (req, res) => {
+//   const { userId, postId } = req.params;
+//   res.send(`User ID: ${userId}, Post ID: ${postId}`);
+// });
+
+// app.listen(PORT, () => {
+//   console.log(`Server running on http://localhost:${PORT}`);
+// });
 
