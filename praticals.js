@@ -1686,6 +1686,9 @@
 // console.log(arr)
 
 
+
+
+
 //find the sum
 
 
@@ -1698,6 +1701,9 @@
 
 // sum+= ab.ad.adad
 // console.log(sum)
+
+
+
 
 
 //find the sum
@@ -1715,3 +1721,101 @@
 //     sum+=products[i].prices.reduce((a,b)=>a+b)
 // }
 // console.log(sum)
+
+
+
+
+
+
+//QA PDF
+
+// let input = [{name:'John',age:25},{name:'Jane',age:30}]
+// let output = input.map((elem)=>elem.name)
+// console.log(output) //[ 'John', 'Jane' ]
+
+
+
+//using map multiply elemnts of array by index
+
+
+// let arr = [2,3,4]
+// let multiple = arr.map((elem,index)=>elem*index)
+// console.log(multiple)
+
+
+
+//using map and filter double even numbers 
+
+
+// let input = [1,2,3,4,5,6]
+// let even = input.filter((elem)=>elem%2==0)
+// let output = even.map((elem)=>elem*2)
+// console.log(output)
+
+
+
+//square of the 2D array
+
+// let input = [[1,2],[3,4]]
+// let output = input.map((elem)=>elem.map((elem)=>elem*elem))
+// console.log(output)
+
+
+
+//filter out words less than 2 characters and capitalise first letters
+
+// let words = ['hi','hello','javascript','world']
+// let filtered = words.filter((elem)=>elem.length>2)
+// let capital = filtered.map((elem)=>elem.charAt(0).toUpperCase('')+elem.slice(1,elem.length))
+
+// console.log(capital)
+
+
+
+//replace  with even for even numbers and odd for odd numbers 
+
+// let arr = [1,2,3,4,5]
+// let str = arr.map((elem)=>elem%2==0 ? "even" : "odd")
+// console.log(str)
+
+
+//string to uppercase append length
+
+// let str = ['hello','world']
+// let modified = str.map((elem)=>elem.toUpperCase()+" Length :"+elem.length)  
+// console.log(modified)
+
+
+
+//if price less than 50 print details
+
+// let products = [{name:'Product A',price: 30},{name:'Product B',price:60},{name:'Product C',price:40}]
+
+// let output = products.filter((elem)=>elem.price<50)
+// console.log(output)
+
+
+
+
+//words characters less than 5
+
+// let words = ['hello','world','code','javascript']
+// let less = words.filter((elem)=>elem.length<5)
+// console.log(less)
+
+
+//number greater than 100 less than 1000
+
+// let arr = [50,100,200,500,1500,2000]
+// let less = arr.filter((elem)=>elem>100 && elem <1000)
+// console.log(less)
+
+
+
+// let str = 'hello    java    script'
+// let str1 = str.split(' ').filter((elem)=>elem!==" ")
+// let str2 = str1.join(' ')
+// console.log(str2)
+
+
+
