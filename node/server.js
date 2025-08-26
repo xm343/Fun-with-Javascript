@@ -336,3 +336,34 @@
 //   console.log(`Server running on http://localhost:${PORT}`);
 // });
 
+
+
+
+
+//router chaining
+
+// const express = require('express')
+// const app = express()
+
+// app.route(`/users/:userId`)
+//     .get((req,res)=>{
+//         const {userId} = req.params
+//         res.send(`userId get: ${userId}`)
+//     })
+//     .post((req,res)=>{
+//         const {userId} = req.params
+//         res.send(`userId post: ${userId}`)
+//     })
+//     .put((req,res)=>{
+//         const {userId} = req.params
+//         res.send(`userId put: ${userId}`)
+//     })
+//     .delete((req,res)=>{
+//         const {userId} = req.params
+//         res.send(`userId delete: ${userId}`)
+//     })
+// app.listen(3000,()=>{
+//     console.log(`http://localhost:3000`)
+// })
+
+
