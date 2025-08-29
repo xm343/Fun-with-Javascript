@@ -11,6 +11,7 @@
 // greet('Abhi',sayHello)
 
 
+
 // //callback hell
 
 
@@ -153,6 +154,7 @@
 
 // //promise
 
+
 // const myPromise = new Promise((resolve, reject)=>{
 //     const success = true
 //     if(success){
@@ -226,6 +228,7 @@
 
 // //async await
 
+
 // const sayHello = ()=>{
 //     return new Promise((resolve)=>{
 //         setTimeout(()=>{
@@ -236,8 +239,7 @@
 // async function greet(){
 //     try{
 //         const message = await sayHello()
-//         console.log(message)
-      
+//         console.log(message)      
 //     }
 //     catch(error){
 //         console.log(error)
@@ -251,7 +253,6 @@
 // const arr = [1,2,3,4,5,6]
 // const arr1 = arr.splice(4,1)
 // console.log(arr)
-
 
 
 
@@ -283,6 +284,8 @@
 
 
 // //shallow copy && deepcopy
+
+
 
 // // shallow copy
 // const original = {
@@ -374,14 +377,12 @@
 // sayHello.apply({ name: "Pc" }); // Output: "Hello, Pc!"
 
 
-
 //apply
 
 // const person = {
 //     name :'Pc',
 //     greet:function(greeting, punctuations){
-//         console.log(`${greeting}, I am ${this.name}${punctuations}`);
-        
+//         console.log(`${greeting}, I am ${this.name}${punctuations}`);        
 //     }
 // }
 // const anotherPerson = {name:"Alex"}

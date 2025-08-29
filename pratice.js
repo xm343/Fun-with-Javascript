@@ -394,4 +394,12 @@
 // Compare how normal functions and arrow functions handle the arguments object.
 
 
+// let arr = [1,2,3,4,5,6]
+// let largestOdd = arr.reduce((acc,elem)=>{
+//     if(elem%2!=0){ 
+//        return elem > acc ? elem : acc
+//     }
+//     return acc
+// } )
+// console.log(largestOdd)
 
